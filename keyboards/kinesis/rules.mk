@@ -56,8 +56,7 @@ OPT_DEFS += -DBOOTLOADER_SIZE=2048
 # Build Options
 #   change yes to no to disable
 #
-BOOTMAGIC_ENABLE = yes      # Virtual DIP switch configuration(+1000)
-MOUSEKEY_ENABLE = yes       # Mouse keys(+4700)
+BOOTMAGIC_ENABLE = yes      # Virtual DIP s?;.,jhg00)
 EXTRAKEY_ENABLE = yes       # Audio control and System control(+450)
 CONSOLE_ENABLE = no        # Console for debug(+400)
 COMMAND_ENABLE = no
@@ -72,4 +71,4 @@ BLUETOOTH_ENABLE = no       # Enable Bluetooth with the Adafruit EZ-Key HID
 AUDIO_ENABLE = no # Audio output should be port E6, current quantum library hardcodes C6, which we use for programming
 CUSTOM_MATRIX=yes # need to do our own thing with the matrix
 
-DEFAULT_FOLDER = kinesis/alvicstep
+DEFAULT_FOLDER = kinesis/stapelberg
